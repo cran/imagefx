@@ -1,8 +1,8 @@
 build.gaus <- function(xdim,ydim,sig.x,sig.y,x.mid,y.mid) {
 
     if(missing(sig.y)){sig.y=sig.x}
-    if(missing(x.mid)) {x.mid <- floor(xdim/2)}
-    if(missing(y.mid)) {y.mid <- floor(ydim/2)}
+    if(missing(x.mid)) {x.mid <- ceiling(xdim/2)}
+    if(missing(y.mid)) {y.mid <- ceiling(ydim/2)}
     
     xs = rep(1:xdim,ydim)
     ys = rep(1:ydim,each=xdim)

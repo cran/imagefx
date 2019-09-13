@@ -1,8 +1,8 @@
 ---
-title: "Volcano Video Data Analyzed with imagefx"
+title: "Analyze Volcano Video Data with R"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{volcano_video_tutorial}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
