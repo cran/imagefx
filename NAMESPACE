@@ -1,5 +1,6 @@
 exportPattern("^[[:alpha:]]+")
 importFrom("grDevices", "as.raster")
 importFrom("graphics", "locator", "plot", "plot.new", "rasterImage","rect")
-importFrom("stats", "fft", "sd")
+importFrom("stats", "fft", "sd","ccf","runif")
 importFrom("graphics", "legend")
+importFrom("signal", "butter","filtfilt","filter")
