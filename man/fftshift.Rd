@@ -7,7 +7,7 @@ Shift Zero Frequency to Center
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
-Shifts matrix such that the first quadrant with the third and the second quadrant with the fourth.
+Rearranges matrix such that the first quadrant is swapped with the third and the second quadrant is swapped with the fourth.
 }
 \usage{
 fftshift(x)

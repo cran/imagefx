@@ -1,7 +1,7 @@
 Package: imagefx
 Type: Package
 Title: Extract Features from Images
-Version: 0.3.0
+Version: 0.4.1
 Author: Alex J.C. Witsil
 Maintainer: Alex J.C. Witsil <alexjcwitsil@gmail.com>
 Description: Synthesize images into characteristic features for time-series analysis or machine learning applications.  The package was originally intended for monitoring volcanic eruptions in video data by highlighting and extracting regions above the vent associated with plume activity.  However, the functions within are general and have wide applications for image processing, analyzing, filtering, and plotting.       
@@ -14,6 +14,6 @@ RoxygenNote: 6.1.1
 Suggests: knitr, rmarkdown, jpeg
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-11-12 19:15:44 UTC; alexmiller
+Packaged: 2020-02-13 18:23:54 UTC; alexmiller
 Repository: CRAN
-Date/Publication: 2019-11-12 19:30:02 UTC
+Date/Publication: 2020-02-13 18:40:02 UTC

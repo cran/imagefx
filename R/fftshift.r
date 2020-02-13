@@ -1,5 +1,5 @@
 fftshift <- function(x) {
-    if(class(x)=='matrix') {
+    
         rd2 <- floor(nrow(x)/2)
         cd2 <- floor(ncol(x)/2)
 
@@ -13,7 +13,6 @@ fftshift <- function(x) {
         centered <- cbind(centered.b,centered.t)
 
         return(Re(centered))
-    }
-
+    
 }
 
